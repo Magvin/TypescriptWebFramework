@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:db": "json-server -w db.json",
+    "start:pacel": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
