@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start:db": "json-server -w db.json",
-    "start:pacel": "parcel index.html"
+    "start:parcel": "parcel index.html"
   },
   "author": "",
   "license": "ISC",

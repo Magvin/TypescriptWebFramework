@@ -1,10 +1,3 @@
 import { User }from './models/User';
+import axios from 'axios';
 
-const newUser = new User({name: 'Albert', age: 2});
-
-newUser.on('change',()=> { 
-    console.log('works')
-});
-
-
-newUser.trigger('change');
