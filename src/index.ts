@@ -1,3 +1,3 @@
 import { User }from './models/User';
-import axios from 'axios';
 
+const brandNewUser = new User({age: 0, name: 'Just borned'})
